@@ -61,7 +61,7 @@ const App = () => {
                   <div
                     key={index}
                     className="website-container-col-desktop"
-                    style={{ marginLeft: "63%" }}
+                    style={{ marginLeft: "0" }}
                   >
                     <a
                       href={item.link}
