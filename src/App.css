@@ -216,8 +216,14 @@
   margin-top: 20.5%;
 }
 
+
 .website-container-image-desktop {
   width: 10vw;
+  transition: transform 0.3s ease-in-out;
+}
+
+.website-container-image-desktop:hover {
+  transform: scale(1.2);
 }
 
 .website-container-image {
@@ -290,7 +296,7 @@
 
 .wa-img-desktop,
 .support-img-desktop {
-  width: 22%;
+  width: 25%;
   animation: bounce 0.6s infinite ease-in-out;
 }
 
