@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Spin, message, Row, Col } from "antd";
+import { Spin, message, } from "antd";
 import './App.css'
 import axios from "axios";
 
