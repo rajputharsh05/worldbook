@@ -220,6 +220,20 @@
 .website-container-image-desktop {
   width: 10vw;
   transition: transform 0.3s ease-in-out;
+  animation: scaleAnimation 2s infinite ease-in-out;
+}
+
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .website-container-image-desktop:hover {
@@ -228,6 +242,8 @@
 
 .website-container-image {
   width: 30vw;
+  transition: transform 0.3s ease-in-out;
+  animation: scaleAnimation 2s infinite ease-in-out;
 }
 
 .pick-your-site-desktop {
@@ -297,7 +313,7 @@
 
 .wa-img-desktop,
 .support-img-desktop {
-  width: 25%;
+  width: 28%;
   animation: bounce 0.6s infinite ease-in-out;
 }
 
