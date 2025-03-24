@@ -44,7 +44,9 @@ const App = () => {
         <div className="second-container-desktop">
           <img src="/WB-Site_desktop-view_0016_model-back.png" alt="Background" className="second-background-desktop" />
           <img src="/WB-Site_desktop-view_0014_SAME-NAME,-SAME-TRUST-in-A-NEW-AVTAR-!.png" alt="Same Name Text" className="same-name-text-desktop" />
-          <img src="/switch-to-Wb-button_1.gif" alt="Switch to World Book" className="switch-btn-desktop" />
+          <img onClick={() =>{
+             window.open("https://www.worldbookofficial.com/","_blank")
+          }} src="/switch-to-Wb-button_1.gif" alt="Switch to World Book" className="switch-btn-desktop" />
           <img src="/WB-MOBILE-VERSION_0013_Moderl.png" alt="Person" className="person-desktop" />
         </div>
         <div className="third-container-desktop">
@@ -108,7 +110,9 @@ const App = () => {
         <div className="second-container">
           <img src="/WB-MOBILE-VERSION_0016_Base.png" alt="Background" className="second-background" />
           <img src="/WB-MOBILE-VERSION_0014_SAME-NAME-SAME-TRUST-in-A-NEW--AVTAR-!.png" alt="Same Name Text" className="same-name-text" />
-          <img src="/switch-to-Wb-button_1.gif" alt="Switch to World Book" className="switch-btn" />
+          <img onClick={() => {
+            window.open("https://www.worldbookofficial.com/","_blank")
+          }} src="/switch-to-Wb-button_1.gif" alt="Switch to World Book" className="switch-btn" />
           <img src="/WB-MOBILE-VERSION_0013_Moderl.png" alt="Person" className="person" />
         </div>
         <div className="third-container">
