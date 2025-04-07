@@ -44,8 +44,8 @@ const App = () => {
         <div className="second-container-desktop">
           <img src="/WB-Site_desktop-view_0016_model-back.png" alt="Background" className="second-background-desktop" />
           <img src="/WB-Site_desktop-view_0014_SAME-NAME,-SAME-TRUST-in-A-NEW-AVTAR-!.png" alt="Same Name Text" className="same-name-text-desktop" />
-          <img onClick={() =>{
-             window.open("https://www.worldbookofficial.com/","_blank")
+          <img onClick={() => {
+            window.open("https://www.worldbookofficial.com/", "_blank")
           }} src="/switch-to-Wb-button_1.gif" alt="Switch to World Book" className="switch-btn-desktop" />
           <img src="/WB-MOBILE-VERSION_0013_Moderl.png" alt="Person" className="person-desktop" />
         </div>
@@ -87,11 +87,15 @@ const App = () => {
             )}
           </div>
           <div className="wa-and-support-desktop">
-            <a className="wa-desktop">
+            <a className="wa-desktop" href="https://wa.link/worldbook" target="_blank" rel="noopener noreferrer">
               <img src="/WB-MOBILE-VERSION_0001_WA-button.png" alt="WA" className="wa-img-desktop" />
             </a>
             <div className="support-desktop">
-              <img src="/WB-MOBILE-VERSION_0000_ps-button.png" alt="Support" className="support-img-desktop" />
+
+              <img onClick={() => {
+                window.open("https://wa.link/worldbook", "_blank")
+              }} src="/WB-MOBILE-VERSION_0000_ps-button.png" alt="Support" className="support-img-desktop" />
+
             </div>
           </div>
         </div>
@@ -111,7 +115,7 @@ const App = () => {
           <img src="/WB-MOBILE-VERSION_0016_Base.png" alt="Background" className="second-background" />
           <img src="/WB-MOBILE-VERSION_0014_SAME-NAME-SAME-TRUST-in-A-NEW--AVTAR-!.png" alt="Same Name Text" className="same-name-text" />
           <img onClick={() => {
-            window.open("https://www.worldbookofficial.com/","_blank")
+            window.open("https://www.worldbookofficial.com/", "_blank")
           }} src="/switch-to-Wb-button_1.gif" alt="Switch to World Book" className="switch-btn" />
           <img src="/WB-MOBILE-VERSION_0013_Moderl.png" alt="Person" className="person" />
         </div>
@@ -152,11 +156,13 @@ const App = () => {
             )}
           </div>
           <div className="wa-and-support">
-            <a className="wa">
+            <a className="wa" href="https://wa.link/worldbook" target="_blank" rel="noopener noreferrer">
               <img src="/WB-MOBILE-VERSION_0001_WA-button.png" alt="WA" className="wa-img" />
             </a>
-            <div className="support">
-              <img src="/WB-MOBILE-VERSION_0000_ps-button.png" alt="Support" className="support-img" />
+            <div className="support" >
+              <img onClick={() => {
+                window.open("https://wa.link/worldbook", "_blank")
+              }} src="/WB-MOBILE-VERSION_0000_ps-button.png" alt="Support" className="support-img" />
             </div>
           </div>
         </div>
